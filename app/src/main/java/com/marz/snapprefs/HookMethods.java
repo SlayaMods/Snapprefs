@@ -219,7 +219,7 @@ public class HookMethods
                                         .setIcon(android.R.drawable.ic_dialog_alert);
                                 builder.setCancelable(false);
                                 final AlertDialog dialog = builder.create();
-                                dialog.setCanceledOnTouchOutside(false);
+                                dialog.setCanceledOnTouchOutside(true);
                                 dialog.show();
                                 return;
                             }
